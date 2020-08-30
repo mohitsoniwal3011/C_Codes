@@ -14,10 +14,7 @@ int main ()
 		g=c/b;
 	}
 	printf("number of digits in the given input number is %d",a);
-<<<<<<< HEAD
 	return 0;
-=======
->>>>>>> 5ee896a56b68a968b94205d990d2a4185948f5f0
 }
 
 
