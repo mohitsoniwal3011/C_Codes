@@ -2,7 +2,8 @@
 int fibonaci(int n);
 int main ()
 {
-	int n,y;
+	int  n;
+	int  y;
 	printf("enter the number of fibonaci term");
 	scanf("%d",&n);
 	y=fibonaci(n);
