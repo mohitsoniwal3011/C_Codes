@@ -1,9 +1,9 @@
 #include <stdio.h>
-int lcm(int a,int b);
+int hcf(int a,int b);
 int main ()
 {
 	int m,n,temp,y;
-	printf("enter to numbers ");
+	printf("enter two numbers ");
 	scanf("%d%d",&m,&n);
 	if(m<n) {
 		temp=m;
@@ -14,7 +14,7 @@ int main ()
 	printf("the hcf is %d",y);
 	return 0;
 }
-int lcm(int a,int b)
+int hcf(int a,int b)
 {
 	int temp;	
 	if(a==b) {
